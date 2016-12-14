@@ -18,7 +18,7 @@ connection. Which is essential on the train where I do my best work.
 
 ### Diff with the server
 GIT doesn't let you do this quite like Subversion, which is its normal MO. How
-do you know if the server copy has changed
+do you know if the server copy has changed?
 
 Neither ```git diff``` nor ```git status``` will tell you if the server has
 changed.
