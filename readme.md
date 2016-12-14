@@ -23,6 +23,26 @@ do you know if the server copy has changed?
 Neither ```git diff``` nor ```git status``` will tell you if the server has
 changed.
 
+```bash
+# Create a new branch
+git checkout -b prep
+
+# Pull changes from the server master (not the local one)
+git pull origin master
+
+# Diff
+git diff master
+
+# Checkout our local master
+git checkout master
+
+# Merge with the prep branch
+git merge prep
+
+# And push it to the server
+git push
+```
+
 ### Misc
 I actually use lots of aliases for common git commands which speeds things up
 even more.
