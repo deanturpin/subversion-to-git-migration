@@ -79,4 +79,4 @@ alias gl='git log --graph --oneline --decorate --all'
 alias gx='git commit -a && git push'
 ```
 
-See [bash aliases](https://github.com/deanturpin/config).
+See my [bash aliases](https://github.com/deanturpin/config).
