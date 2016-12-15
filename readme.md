@@ -19,13 +19,17 @@ svn checkout <repo>
 git clone <repo>
 ```
 
-### Offline working
-Doesn't exist in Subversion. Unless you're running your server locally.
+## Offline working
+This doesn't exist in Subversion. Unless you're running your server locally.
 
 git still allows you full config control (bar pushing to github) without a
 connection. Which is essential on the train where I do my best work.
 
-### Diff with the server
+I think many colleagues would argue that they always dev at their desk so this
+is irrelevant. However, labs are often isolated and builds are carried over the
+sneakernet. Changes propagate back the same way but it's a bit haphazard.
+
+## Diff with the server
 GIT doesn't let you do this quite like Subversion, which is its normal MO. How
 do you know if the server copy has changed?
 
