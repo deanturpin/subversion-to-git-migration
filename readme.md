@@ -10,6 +10,15 @@ svn commit -m 'blah'
 git commit -m 'blah'
 git push
 ```
+
+### Checkout
+```bash
+svn checkout <repo>
+```
+```bash
+git clone <repo>
+```
+
 ### Offline working
 Doesn't exist in Subversion. Unless you're running your server locally.
 
