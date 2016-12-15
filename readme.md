@@ -43,8 +43,11 @@ git merge prep
 git push
 ```
 
-However, this does raise the question: should the owner of repo be doing the
-merge as part of the review process? I quite like this strategy. 
+It is quite keen to merge, though. Which I'm not used to. But perhaps we should
+be trusting the tools more?
+
+And this does raise the question: should the owner of repo be doing the merge as
+part of the review process? I quite like this strategy. 
 
 ### Misc
 I actually use lots of aliases for common git commands which speeds things up
