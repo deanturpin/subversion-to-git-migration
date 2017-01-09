@@ -1,8 +1,8 @@
 A higher authority might be imposing a move to git from Subversion at work. Some
 considerations that have crossed my mind.
 
-## Equivalent commands
-### Commit and push to server
+# Equivalent commands
+## Commit and push to server
 ```bash
 svn commit -m 'blah'
 ```
@@ -11,7 +11,7 @@ git commit -m 'blah'
 git push
 ```
 
-### Checkout
+## Checkout
 ```bash
 svn checkout <repo>
 ```
@@ -19,7 +19,7 @@ svn checkout <repo>
 git clone <repo>
 ```
 
-## Offline working
+# Offline working
 This doesn't exist in Subversion. Unless you're running your server locally.
 
 git still allows you full config control (bar pushing to github) without a
@@ -33,7 +33,7 @@ laptops. These are mostly the preserve of managers to allow them to login from
 home. (There's also a slightly unhelpful rule that you can only have either a
 desktop or a laptop.)
 
-## Diff with the server
+# Diff with the server
 GIT doesn't let you do this quite like Subversion, which is its normal MO. How
 do you know if the server copy has changed?
 
@@ -66,7 +66,7 @@ be trusting the tools more?
 And this does raise the question: should the owner of repo be doing the merge as
 part of the review process? I quite like this strategy. 
 
-### Misc
+# Aliases
 I actually use lots of aliases for common git commands which speeds things up
 even more.
 
@@ -80,3 +80,11 @@ alias gx='git commit -a && git push'
 ```
 
 See my [bash aliases](https://github.com/deanturpin/config).
+
+# Large files
+You can quite easily end up with a small visible repo and a huge history. (Particularly if you're in the habit of storing firmware images alongside code.)
+
+There are various purge techniques but you must be confortable with these before progressing.
+
+Alternativly...
+http://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github#26000395
