@@ -1,6 +1,3 @@
-A higher authority might be imposing a move to git from Subversion at work. Some
-considerations that have crossed my mind.
-
 # Equivalent commands
 ## Commit and push to server
 ```bash
