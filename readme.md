@@ -84,7 +84,7 @@ See my [bash aliases](https://github.com/deanturpin/config).
 # Large files
 You can quite easily end up with a small visible repo and a huge history. (Particularly if you're in the habit of storing firmware images alongside code.)
 
-There are various [purge techniques](https://github.com/cmaitchison/git_diet) but you must be confortable with these before progressing.
+There are various [purge techniques](https://github.com/cmaitchison/git_diet) but you must be comfortable with these before progressing.
 
 Alternativly...
 http://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github#26000395
